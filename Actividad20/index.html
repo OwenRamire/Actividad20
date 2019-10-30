@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Entrar al sistema</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css"/>
+    <link type="text/css" rel="stylesheet" href="EstilosPrincipal19.css"/>
+</head>
+<body>
+    <!--Cabecera de la pagina-->
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div>
+                <h1 class="title">Universidad de colima</h1>
+                <h2 class="subtitle">Facultad de telematica</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="section is-three-fifths">
+        <div class="container">
+            <h1 class="title">Ingresar al sistema</h1>
+             
+        </div>
+    </section>
+
+    <form action="CheckUsers.php" method="POST" id="formulario">
+        <!--Label y caja de texto NOMBRE-->
+        <div class="field">
+            <label class="label">Nombre</label>
+            <div class="control">
+                <input class="input" type="text" name="Nombre" placeholder="Owen Ramirez" size="50" />
+            </div>
+        </div>
+        <!--Label y caja de texto Correo-->     
+        <div class="field">
+            <label class="label">Correo</label>
+            <div class="control">
+                <input class="input" type="email" name="Correo" placeholder="owenramirez@example.com" size="50"/>
+            </div>
+        </div>
+        <div class="control">
+            <button class="button is-primary">Enviar</button>
+        </div>
+    </form>
+          
+    
+
+    <!--Pie de pagina de la pagina-->
+    <footer class="footer ">
+        <div class="content has-text-centered">
+            <p>&copy; Desarrollado Por <a href="#">Owen Ramirez</a></p>        
+        </div>
+    </footer>
+</body>
+</html>

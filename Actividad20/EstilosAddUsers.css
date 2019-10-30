@@ -1,0 +1,22 @@
+#cabecera{
+    padding: 30px 40px;
+    text-align: center;
+}
+
+.section {
+    padding: 35px 24px;
+    width: 700px 400px;
+}
+
+
+#formularioUsuarios {
+    width: 500px 700px;
+}
+
+.title { text-align: center;}
+
+.footer {
+    font-weight: bold;
+    padding: 40px 24px;
+    background: #E5EAEB;
+}
